@@ -1,4 +1,4 @@
-import { OrbitControls } from "@react-three/drei";
+import { OrbitControls, SoftShadows } from "@react-three/drei";
 import Paladin from "./Paladin";
 import Floor from "./Floor";
 
@@ -22,12 +22,13 @@ const Experience = () => {
         position={[0, -1, -2]}
         receiveShadow
       >
-        <planeBufferGeometry args={[25, 15, 1, 1]} />
+        <planeBufferGeometry args={[25, 15, 1, 1]} receiveShadow />
         <shadowMaterial transparent opacity={0.2} />
       </mesh>
       <group position={[0, -1, 0]}>
         <Floor />
       </group>
+      <SoftShadows size={35} samples={16} focus={1} />
     </>
   );
 };
