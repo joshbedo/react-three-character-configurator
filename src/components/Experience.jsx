@@ -1,5 +1,6 @@
 import { OrbitControls } from "@react-three/drei";
 import Paladin from "./Paladin";
+import Floor from "./Floor";
 
 const Experience = () => {
   return (
@@ -16,17 +17,17 @@ const Experience = () => {
       <group position={[0, -1, 0]}>
         <Paladin />
       </group>
-      <mesh
+      {/* <mesh
         rotation={[-0.5 * Math.PI, 0, 0]}
         position={[0, -1.2, 0]}
         receiveShadow
       >
         <planeBufferGeometry args={[25, 15, 1, 1]} />
         <shadowMaterial transparent opacity={0.2} />
-        {/* <meshPhongMaterial attach="material" color="green" /> */}
-        {/* <planeBufferGeometry args={[100, 100, 1, 1]} /> */}
-        {/* <shadowMaterial transparent opacity={0.2} /> */}
-      </mesh>
+      </mesh> */}
+      <group position={[0, -1.2, 0]}>
+        <Floor />
+      </group>
     </>
   );
 };
