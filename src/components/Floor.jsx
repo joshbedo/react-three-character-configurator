@@ -9,8 +9,8 @@ import { useGLTF } from '@react-three/drei'
 export function Floor(props) {
   const { nodes, materials } = useGLTF('./models/floor.gltf')
   return (
-    <group {...props} dispose={null} castShadows receiveShadow scale={0.05} rotation={[Math.PI / -2, 0, 0]}>
-      <mesh geometry={nodes.mesh_0.geometry} material={nodes.mesh_0.material} />
+    <group {...props} dispose={null} scale={0.05} rotation={[Math.PI / -2, 0, 0]}>
+      <mesh geometry={nodes.mesh_0.geometry} receiveShadow castShadow material={nodes.mesh_0.material} />
     </group>
   )
 }

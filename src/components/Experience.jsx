@@ -17,15 +17,15 @@ const Experience = () => {
       <group position={[0, -1, 0]}>
         <Paladin />
       </group>
-      {/* <mesh
+      <mesh
         rotation={[-0.5 * Math.PI, 0, 0]}
-        position={[0, -1.2, 0]}
+        position={[0, -1, -2]}
         receiveShadow
       >
         <planeBufferGeometry args={[25, 15, 1, 1]} />
         <shadowMaterial transparent opacity={0.2} />
-      </mesh> */}
-      <group position={[0, -1.2, 0]}>
+      </mesh>
+      <group position={[0, -1, 0]}>
         <Floor />
       </group>
     </>
