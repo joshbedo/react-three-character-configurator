@@ -72,6 +72,7 @@ const Experience = () => {
           {/* <Cloud position={[-4, -2, 0]} args={[3, 2]} depth={1.5} segments={20} depthTest={true} opacity={0.5} /> */}
           {/* <Cloud position={[-4, 2, 0]} args={[3, 2]} depth={1.5} segments={20} depthTest={true} opacity={0.5} /> */}
           <Cloud position={[-4, -2, 0]} args={[3, 2]}  depth={1.5} segments={20} depthTest={true} opacity={0.3} />
+          
 {/* 24      <Cloud position={[-4, 2, 0]} args={[3, 2]}  depth={1.5} segments={20} depthTest={true} opacity={0.3} /> */}
 {/* 25      <Cloud args={[3, 2]}  depth={1.5} segments={20} depthTest={true} opacity={0.3} /> */}
 {/* 26      <Cloud position={[4, -2, 0]} args={[3, 2]}  depth={1.5} segments={20} depthTest={true} opacity={0.5} /> */}
