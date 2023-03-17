@@ -1,5 +1,7 @@
 # r3f-character-customization-started
 
+Project to help with creating D&D 3d printed miniatures. The app lets you choose your model and customize everything from materials to poses then order a 3d print of it.
+
 Starting pack containing :
 - Three.js
 - React Three Fiber (r3f)
